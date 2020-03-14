@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "soulladders:block/soul_ladder"
+		},
+		"facing=east": {
+			"model": "soulladders:block/soul_ladder",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "soulladders:block/soul_ladder",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "soulladders:block/soul_ladder",
+			"y": 270
+		}
+	}
+}

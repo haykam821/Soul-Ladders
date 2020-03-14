@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#soulladders:soul_speed_climbable",
+		"minecraft:ladder"
+	]
+}

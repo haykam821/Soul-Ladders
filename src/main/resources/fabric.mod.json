@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "soulladders",
+	"version": "${version}",
+	"name": "Soul Ladders",
+	"description": "Adds fast vertical travel using the Soul Speed enchantment.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Soul-Ladders#readme",
+		"issues": "https://github.com/haykam821/Soul-Ladders/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/soulladders/icon.png",
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.soulladders.Main"
+		]
+	},
+	"mixins": [
+		"soulladders.mixin.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric": "*"
+	}
+}
